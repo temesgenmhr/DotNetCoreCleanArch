@@ -15,4 +15,8 @@
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="5.0.5" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\DotNetCoreCleanArch.Infrastructure.Data\DotNetCoreCleanArch.Infrastructure.Data.csproj" />
+  </ItemGroup>
+
 </Project>
