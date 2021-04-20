@@ -5,10 +5,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Services\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\DotNetCoreCleanArch.Domain\DotNetCoreCleanArch.Domain.csproj" />
   </ItemGroup>
 
