@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace DotNetCoreCleanArch.Infrastructure.Data.Repository
 {
-    class CourseRepository : ICourseRepository
+   public class CourseRepository : ICourseRepository
     {
         private UniversityDBContext _universityDBContext;
 

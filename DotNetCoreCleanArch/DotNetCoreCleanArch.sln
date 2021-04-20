@@ -21,6 +21,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNetCoreCleanArch.Infrast
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetCoreCleanArch.Application", "DotNetCoreCleanArch.Application\DotNetCoreCleanArch.Application.csproj", "{ADB634E7-D5BA-42FE-9EEE-E99A3C985FA2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetCoreCleanArch.Infrastructure.IoC", "DotNetCoreCleanArch.Infrastructure.IoC\DotNetCoreCleanArch.Infrastructure.IoC.csproj", "{41464688-8AB6-4D6E-A645-428FB6B1D646}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -43,6 +45,10 @@ Global
 		{ADB634E7-D5BA-42FE-9EEE-E99A3C985FA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ADB634E7-D5BA-42FE-9EEE-E99A3C985FA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ADB634E7-D5BA-42FE-9EEE-E99A3C985FA2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{41464688-8AB6-4D6E-A645-428FB6B1D646}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{41464688-8AB6-4D6E-A645-428FB6B1D646}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{41464688-8AB6-4D6E-A645-428FB6B1D646}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{41464688-8AB6-4D6E-A645-428FB6B1D646}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -52,6 +58,7 @@ Global
 		{ADB6710A-45F3-47D4-8398-29E97BD82BFC} = {6CF3CF8F-3E08-4D15-8735-7748B44C375B}
 		{C23BB48E-D256-48D0-883F-2F6082846599} = {AE2053B6-992E-4F4D-86AE-761B15A9D258}
 		{ADB634E7-D5BA-42FE-9EEE-E99A3C985FA2} = {AFE61AE6-5947-4ED1-85E4-DF3270932DE9}
+		{41464688-8AB6-4D6E-A645-428FB6B1D646} = {1E0FF100-64DE-46DF-B7C5-3D4ED5A61B37}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A7051ED4-3580-4E9C-9C7E-702479B06730}

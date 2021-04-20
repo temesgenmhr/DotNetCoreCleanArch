@@ -1,4 +1,5 @@
 using DotNetCoreCleanArch.Infrastructure.Data.Context;
+using DotNetCoreCleanArch.Infrastructure.IoC;
 using DotNetCoreCleanArch.Mvc.Data;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -40,6 +41,8 @@ namespace DotNetCoreCleanArch.Mvc
             services.AddDbContext<UniversityDBContext>(options =>
               options.UseSqlServer(
           Configuration.GetConnectionString("UniversityDatabaseConnection")));
+
+            RegisterServices(services);
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -71,6 +74,11 @@ namespace DotNetCoreCleanArch.Mvc
                     pattern: "{controller=Home}/{action=Index}/{id?}");
                 endpoints.MapRazorPages();
             });
+        }
+
+        private static void RegisterServices(IServiceCollection services)
+        {
+            DependancyContainer.RegisterServices(services);
         }
     }
 }
